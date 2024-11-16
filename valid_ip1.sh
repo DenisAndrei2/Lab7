@@ -8,3 +8,5 @@ cat /etc/hosts | while read linie || [[ -n "$linie" ]]; do
 		echo "Bogus ip for $nume in /etc/hosts, ip is not $ip_hosts, it is $ip"
 	fi
 done
+
+echo "Modificare prin fork"
